@@ -1,0 +1,324 @@
+/* ******************ROOT CSS*************************** */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E7E9EB;
+}
+/* ***************HEADER CSS******************************* */
+
+.name {
+    display: flex;
+    /* border:2px solid red; */
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    
+}
+
+.name h1 a {
+    /* border: 2px solid blue; */
+    font-size: 4rem;
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: black;
+    font-family: 'Sacramento', cursive;
+}
+
+.container {
+      border: 2px solid black;
+    padding: 0.5rem;
+    /* background-color: #1b1b1b; */
+}
+
+nav {
+    /*   border: 1px solid green; */
+    padding: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items {
+    list-style: none;
+    /*     border: 1px solid green; */
+    margin: 0 1rem;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: all 0.8s;
+}
+
+.nav-links:hover {
+    color: tomato;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        background-color: #E7E9EB;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-items {
+        /*     border:1px solid red; */
+        margin: 0.5rem 0;
+    }
+
+    .nav-links:hover {
+        color: black;
+    }
+}
+
+/* *********************FOOTER CSS***************************** */
+
+
+footer {
+    /* border: 2px solid red; */
+    display: flex;
+    color: #E7E9EB;
+    justify-content: center;
+    margin: 3.2rem 0px 0px 0px;
+    padding: 3.2rem;
+}
+
+footer div {
+    /* border:2px solid green; */
+    margin: 0.3rem 2.5rem;
+    padding: 0.6rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contacts a {
+    margin: 0.3rem;
+    color: black;
+    font-size: 1.6rem;
+    transition: color 0.9s;
+}
+
+.contacts a:hover {
+    color: tomato;
+}
+
+/* ***************************CONTENT CSS****************************** */
+
+#myphoto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.5rem;
+}
+
+#myphoto img{
+    /* border:1px solid red; */
+    width:30rem;
+}
+
+#Introduction h3{
+    /* border:1px solid red; */
+    font-size: 2rem;
+    text-align:center;
+    padding:1rem;
+}
+
+#Introduction p{
+    /* border:1px solid green; */
+    font-size:1.3rem;
+    padding:1rem;
+    margin:0 1rem;
+}
+
+
+/* SKILLS CSS */
+
+#skills{
+    padding:1rem;
+    background-color: #282a35;
+    color:whitesmoke;
+}
+
+#skills h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.skill-list{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+    /* border:1px solid red; */
+}
+
+.skill-list h4{
+    text-align: center;
+	font-size: 1.2rem;
+    padding:0.8rem;
+}
+
+.progress {
+	width: 60%;
+	height: 1.5rem;
+	background-color: #9cbab4;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#SQL{
+    width: 75%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#python-lang {
+	width: 75%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#web-scrapping {
+	width: 70%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#data-analysis {
+	width: 70%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#data-viz {
+	width: 70%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#flask{
+    width: 60%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#git{
+    width: 60%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#Tableau{
+    width: 55%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#html{
+    width: 80%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#css{
+    width: 70%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#Bootstrap{
+    width: 75%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#stats{
+    width: 60%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#ml{
+    width: 65%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#dvc{
+    width: 70%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#time-series{
+    width: 65%;
+	height: 100%;
+	background-color: #009579;
+}
+
+#certifications{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+    background-color: #F3ECEA;
+    /* border:1px solid red; */
+}
+
+#certifications h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.certification-list{
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #282a35;
+    border-radius: 0.5rem;
+    margin-top:1rem;
+}
+
+.certification-list h4{
+    text-align: center;
+	font-size: 1.2rem;
+    padding:0.8rem;
+}
+
+.certification-list button{
+    padding:0.8rem;
+    background-color: #282a35;
+    border-radius: 0.5rem;
+   
+}
+
+.certification-list button a{
+    color:whitesmoke;
+    text-decoration: none;
+    
+}
+
+.certification-list button a:hover{
+    color:tomato;
+}
+

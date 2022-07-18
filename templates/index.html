@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+
+
+{% block css_link %}
+
+<link rel="stylesheet" href="static\index.css">
+
+{% endblock %}
+
+
+
+{% block title %}
+
+<title>ShivamDattatrayShinde</title>
+
+{% endblock %}
+
+
+
+{% block content %}
+
+<section id="personal-photo">
+    <img src="static\shivam.jpg" alt="image">
+</section>
+
+<section class="introduction">
+    <div class="main_intro">
+        <p>Hi! My name is Shivam. I am an aspiring data scientist. I love mathematics and analysing data to find the
+            hidden information.</p>
+        <div><a href="{{ url_for('about') }}">Curious to know more?</a></div>
+    </div>
+</section>
+
+{% endblock %}

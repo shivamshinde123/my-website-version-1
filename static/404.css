@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E7E9EB;
+}
+/* ***************HEADER CSS******************************* */
+
+.name {
+    display: flex;
+    /* border:2px solid red; */
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    
+}
+
+.name h1 a {
+    /* border: 2px solid blue; */
+    font-size: 4rem;
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: black;
+    font-family: 'Sacramento', cursive;
+}
+
+.container {
+      border: 2px solid black;
+    padding: 0.5rem;
+    /* background-color: #1b1b1b; */
+}
+
+nav {
+    /*   border: 1px solid green; */
+    padding: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items {
+    list-style: none;
+    /*     border: 1px solid green; */
+    margin: 0 1rem;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: all 0.8s;
+}
+
+.nav-links:hover {
+    color: tomato;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        background-color: seagreen;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-items {
+        /*     border:1px solid red; */
+        margin: 0.5rem 0;
+    }
+
+    .nav-links:hover {
+        color: black;
+    }
+}
+
+/* *********************CONTENT CSS************************* */
+
+.error-message{
+    display: flex;
+    /* border:1px solid black; */
+    align-items: center;
+    justify-content: center;
+    padding:3rem;
+    margin:3rem;
+}
+
+.error-message h1{
+    text-align: center;
+    color:tomato;
+}

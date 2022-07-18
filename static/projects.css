@@ -1,0 +1,310 @@
+
+/* ******************ROOT CSS*************************** */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* ********************HEADER CSS********************** */
+
+.name {
+    display: flex;
+    /* border:2px solid red; */
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    background-color: #E7E9EB;
+}
+
+.name h1 a {
+    color: black;
+    /* border: 2px solid blue; */
+    font-size: 4rem;
+    /* font-weight: bold; */
+    text-decoration: none;
+    font-family: 'Sacramento', cursive;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: #E7E9EB;
+}
+
+nav {
+    /*   border: 1px solid green; */
+    padding: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items {
+    list-style: none;
+    /*     border: 1px solid green; */
+    margin: 0 1rem;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: all 0.8s;
+}
+
+.nav-links:hover {
+    color: tomato;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        background-color: #E7E9EB;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-items {
+        /*     border:1px solid red; */
+        margin: 0.5rem 0;
+    }
+
+    .nav-links:hover {
+        color: black;
+    }
+}
+
+
+/* ****************************FOOTER CSS****************************** */
+
+footer {
+    /* border: 2px solid red; */
+    background-color: #282a35;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    padding: 2.3rem;
+}
+
+footer div {
+    /* border:2px solid green; */
+    margin: 0.3rem 2.5rem;
+    padding: 0.6rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contacts a {
+    margin: 0.3rem;
+    color: whitesmoke;
+    font-size: 1.6rem;
+    transition: color 0.9s;
+}
+
+.contacts a:hover {
+    color: tomato;
+}
+
+
+/* ***************************CONTENT CSS******************************* */
+
+section {
+    /* border: 2px solid white; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* python projects container css */
+
+.pythonProjects {
+    padding-top: 6rem;
+    background-color: #E7E9EB;
+}
+
+#pythonProjectsHeader {
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.python-project-container {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.python-project-container h3 {
+    color: black;
+    margin-bottom: 0.6rem;
+
+}
+
+.python-project-container p {
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.python-project-know_more_btn button {
+    background-color: #434553;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.python-project-know_more_btn button a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+.python-project-know_more_btn button a:hover {
+    color: tomato;
+}
+
+/* machine learning projects container */
+
+.MachineLearningProjects {
+    
+    background: url("https://www.w3schools.com/about/w3codes.png") no-repeat fixed bottom;
+    background-color: #232434;
+}
+
+#MLProjectHeader {
+    color: whitesmoke;
+    margin-bottom: 1.5rem;
+}
+
+.ML-project-container {
+    border: 1px solid whitesmoke;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.ML-project-container h3 {
+    color: whitesmoke;
+    margin-bottom: 0.6rem;
+}
+
+.ML-project-container p {
+    color: whitesmoke;
+    margin-bottom: 1.5rem;
+}
+
+.ML-know_more_btn button {
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.ML-know_more_btn button a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+.ML-know_more_btn button a:hover {
+    color: tomato;
+}
+
+/* tableau projects container */
+.TableauProjects {
+    background-color: #F3ECEA;
+}
+
+#TableauProjectsHeader {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.Tableau-project-container {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.Tableau-project-container h3 {
+    color: black;
+    margin-bottom: 0.6rem;
+
+}
+
+.Tableau-project-container p {
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.Tableau-know_more_btn button {
+    background-color: #434553;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.Tableau-know_more_btn button a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+.Tableau-know_more_btn button a:hover {
+    color: tomato;
+}
+
+/* other snippets css */
+.someUsefulCodeSnippets {
+    background-color: #282a35;
+}
+
+#otherSnippetsHeader {
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+
+.other-snippets-project-container {
+    border: 1px solid whitesmoke;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.other-snippets-project-container h3 {
+    color: whitesmoke;
+    margin-bottom: 0.6rem;
+
+}
+
+.other-snippets-project-container p {
+    color: whitesmoke;
+    margin-bottom: 1.5rem;
+}
+
+.other-snippets-know_more_btn button {
+    background-color: #434553;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.other-snippets-know_more_btn button a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+.other-snippets-know_more_btn button a:hover {
+    color: tomato;
+}
